@@ -23,7 +23,7 @@ int main(void) {
 
         cout << "\n 6 - ";
 
-        cout << "\n 7- E X I T";
+        cout << "\n 7 - E X I T";
 
         cout << "\n Enter selection: ";
 
@@ -34,7 +34,7 @@ int main(void) {
         switch (selection) {
 
             case '1': {
-                cout << "Enter Input[e.g. VK]:";
+                cout << "Enter Input[e.g. VK]: ";
                 string s;
                 cin >> s;
                 int c = 0;
@@ -59,7 +59,7 @@ int main(void) {
                 break;
 
             case '2': {
-                cout << "Enter Input[e.g. tour]:";
+                cout << "Enter Input[e.g. tour]: ";
                 string input, result;
 
                 cin >> input;
@@ -84,7 +84,7 @@ int main(void) {
                 break;
 
             case '3': {
-                cout << "Enter Input[e.g. 4 \n 2 3 2 0]";
+                cout << "Enter Input[e.g. 4 \n 2 3 2 0]: ";
                 const int INF = 1e9 + 90;
                 cout << "\n To exit the menu";
                 int n;
