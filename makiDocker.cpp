@@ -19,7 +19,7 @@ int main(void) {
 
         cout << "\n 4 - 281A - Capitalization";
 
-        cout << "\n 5 - ";
+        cout << "\n 5 - 59A - Word";
 
         cout << "\n 6 - ";
 
@@ -139,6 +139,50 @@ int main(void) {
                 break;
 
             case '5': {
+                int i;
+                int sCount = 0;
+                int lCount = 0;
+                string word;
+                cin >> word;
+
+                for (i = 0; i < word.length(); ++i)
+                {
+                    if (isupper(word[i]))
+                    {
+                        lCount++;
+                    }
+                    {
+                        if (islower(word[i]))
+                        {
+                            sCount++;
+                        }
+                    }
+                }
+
+                if (sCount > lCount || sCount == lCount)
+                {
+                    for (i = 0; i < word.length(); ++i)
+                    {
+                        if (isupper(word[i]))
+                        {
+                            word[i] = tolower(word[i]);
+                        }
+                    }
+                }
+
+                if (lCount > sCount)
+                {
+                    for (i = 0; i < word.length(); ++i)
+                    {
+                        if (islower(word[i]))
+                        {
+                            word[i] = toupper(word[i]);
+                        }
+                    }
+                }
+
+                cout << "\n"
+                     << word;
             }
                 break;
 
