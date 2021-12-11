@@ -1,0 +1,3 @@
+C:/Users/Jerms/CLionProjects/makiDocker/cmake-build-debug/CMakeFiles/makiDocker.dir
+C:/Users/Jerms/CLionProjects/makiDocker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jerms/CLionProjects/makiDocker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
