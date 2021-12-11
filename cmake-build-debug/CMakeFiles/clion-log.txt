@@ -1,36 +1,6 @@
-C:\Users\LEGION\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\LEGION\CLionProjects\makiDocker
--- The C compiler identification is MSVC 19.29.30137.0
--- The CXX compiler identification is MSVC 19.29.30137.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe
--- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe - broken
-CMake Error at C:/Users/LEGION/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake:69 (message):
-  The C compiler
-
-    "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: C:/Users/LEGION/CLionProjects/makiDocker/cmake-build-debug/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):nmake -f Makefile /nologo cmTC_0bcee\fast && 	C:\Program Files\GnuWin\bin  -f CMakeFiles\cmTC_0bcee.dir\build.make /nologo -L                  CMakeFiles\cmTC_0bcee.dir\build
-    'C:\Program' is not recognized as an internal or external command,
-    operable program or batch file.
-    NMAKE : fatal error U1077: 'C:\Program' : return code '0x1'
-    Stop.
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:2 (project)
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "C:\Users\Cheynadine\Documents\3rd Year First Semester (2021-2022)\IT 311\Finals\makiDocker"
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.21 or higher is required.  You are running version 3.20.2
 
 
 -- Configuring incomplete, errors occurred!
-See also "C:/Users/LEGION/CLionProjects/makiDocker/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "C:/Users/LEGION/CLionProjects/makiDocker/cmake-build-debug/CMakeFiles/CMakeError.log".
