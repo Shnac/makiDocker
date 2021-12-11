@@ -27,7 +27,7 @@ int main(void) {
 
         cout << "\n Enter selection: ";
 
-        // read the input
+        // read the input of 'selection'
 
         cin >> selection;
 
