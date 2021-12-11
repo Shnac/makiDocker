@@ -17,7 +17,7 @@ int main(void) {
 
         cout << "\n 3 - 996B - World Cup";
 
-        cout << "\n 4 - ";
+        cout << "\n 4 - 281A - Capitalization";
 
         cout << "\n 5 - ";
 
@@ -114,6 +114,27 @@ int main(void) {
                 break;
 
             case '4': {
+                cout << "Enter Word: ";
+                string word;
+                cin >> word;
+
+                    if (word.length() <= 1000){
+                        for (int x = 0; x < word.length(); x++)
+                        {
+                            if (x == 0)
+                            {
+                                word[x] = toupper(word[x]);
+                            }
+                            else if (word[x - 1] == ' ')
+                            {
+                                word[x] = toupper(word[x]);
+                            }
+                        }} else {
+
+                    }
+
+                    cout << word;
+
             }
                 break;
 
