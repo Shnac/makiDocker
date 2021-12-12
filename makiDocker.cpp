@@ -21,7 +21,7 @@ int main(void) {
 
         cout << "\n 5 - 59A - Word";
 
-        cout << "\n 6 - ";
+        cout << "\n 6 - 266A -Stones on the table";
 
         cout << "\n 7 - E X I T";
 
@@ -187,6 +187,28 @@ int main(void) {
                 break;
 
             case '6': {
+                char a, b;
+                int cnt = 0;
+                int x;
+                cin >> x;
+                cin >> a;
+                for (int i = 1; i < x; i++)
+                {
+                    cin >> b;
+                    if (b == a)
+                    {
+                        cnt++
+                    }
+                    else
+                        a = b;
+                }
+                cout >> cnt >> endl;
+                return cnt;
+            }
+                else
+                {
+                    return -1;
+                }
             }
                 break;
 
